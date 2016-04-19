@@ -1,0 +1,4 @@
+a = open('DNA.txt', 'r')
+bases= a.readlines()[0]
+
+print bases.count('A')+" "+bases.count('C')+" "+bases.count('G')+" "+bases.count('T')

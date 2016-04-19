@@ -1,0 +1,5 @@
+a = open('rosalind_dna.txt', 'r')
+f = open('dna_output.txt', 'w')
+bases= a.readlines()[0]
+
+print >>f, str(bases.count('A'))+" "+str(bases.count('C'))+" "+str(bases.count('G'))+" "+str(bases.count('T'))
