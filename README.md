@@ -1,3 +1,3 @@
 # ROSALIND
 
-Repository for solutions in ROSALIND platform
+Repository for solutions in ROSALIND platform.
